@@ -1,0 +1,54 @@
+/*------------------------------------------------------------ About Styles----------------------------------------------------------------------------*/   
+.about-section{
+    margin-left: 280px;
+}
+
+.about-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-clients a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-industry a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.about-email{
+    padding-top: 3em;
+}
+
+.about-email a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.about-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+   position: absolute;
+   top: 30%;
+   left: 56%;
+    
+
+}
+
+.about-list i{
+    color: black;
+    
+
+}
+
+.about-me{
+    font-size: 20px;
+    color: #515151;
+}

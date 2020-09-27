@@ -1,0 +1,30 @@
+ /*------------------------------------------------------------ Mobile Nav Styles--------------------------------------------------------------------- */
+
+
+ #navbarNavAltMarkup {
+    position: fixed;
+    top: 3.5em;
+    right: 0;
+    z-index: 1;
+    width: 30%; /*example + never use min-width with this solution */
+    height: 100%;
+    background-color: #222222;
+    color: grey !important;
+    text-align: center
+
+}
+
+.navbar{
+    background-color: #2D2D2D;
+    z-index: 2;
+}
+
+.nav-item:hover{
+    background: #727272;
+}
+
+.mobile-nav-title{
+    color: white;
+    border-bottom: dashed 1px #484848; 
+}
+  

@@ -1,0 +1,90 @@
+/*----------------------------------------------------------------- Gallery Styles---------------------------------------------------------------------*/
+
+
+.gallery{
+    margin-left: 280px; /* Same as the width of the sidebar */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(505px, 1fr));
+    grid-auto-rows: 350px, auto;
+    gap: 0px;
+    
+}
+
+.grid-item{
+  height: 400.64px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;     
+    
+}
+
+.grid-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;    
+  display: block;
+  transition: transform .4s;
+
+}
+
+/*------------------------------------------------------------ Image overlay Styles------------------------------------------------------------------- */
+
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+
+.img-overlay:hover{
+  opacity: 1;
+}
+
+
+
+.img-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.img-overlay:hover > * {
+    transform: translateY(0);
+}
+
+
+.img-title{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 1em;
+  margin-bottom: .25em;
+
+}
+
+
+.img-icon{
+    color: white;
+}
+
+.img-description{
+    margin-left: 1.6em;
+    font-size: 1em;
+    margin-top: 0.55em;
+    margin-bottom: 2em;
+}
+
+.grid-item:hover img{
+  transform: scale(1.1);
+transform-origin: 50% 50%;
+}

@@ -1,0 +1,74 @@
+/*----------------------------------------------------------------------- Side Navbar Styles----------------------------------------------------------- */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 280px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #222222; /* Black */
+    overflow: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  .sidebar-name{
+    color: white;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.wrapper{
+    margin: 2em;
+    margin-top: 2em;
+}
+
+.inline-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    border-bottom: dotted 1px #4B4B4B;
+
+}
+
+.social-icon{
+    color: white;
+    padding: 1rem;
+}
+
+.social-links{
+    position: relative;
+    margin: 2em;
+    top: 45%;
+    left: 6%;
+    
+   
+}
+
+.copyright{
+    color: #949494;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    padding-top: 2em;
+    padding-left: 2.5em;
+    margin: auto;
+}
+  
+  /* The navigation menu links */
+  .wrapper a {
+    padding: 1em 0em;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+    border-bottom: dotted 1px #4B4B4B;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #dbd9d9;
+  }
+
+  .sidenav-links{
+      text-decoration: none !important;
+  }
